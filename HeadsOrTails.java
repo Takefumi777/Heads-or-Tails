@@ -30,9 +30,9 @@ System.out.print("Who are you?\n> ");
         System.out.println("Heads: "+numberOfHeads+ ", Tails: "+numberOfTails);
 
   if(numberOfHeads > numberOfTails) {
-            System.out.println("You won");
+            System.out.println(name +" won");
         }else{
-            System.out.println("You lost");
+            System.out.println(name +" lose");
         }      
     }
 
