@@ -23,6 +23,11 @@ Random random = new Random();
         }
         System.out.println("Heads: "+numberOfHeads+ ", Tails: "+numberOfTails);
 
+  if(numberOfHeads > numberOfTails) {
+            System.out.println("You won");
+        }else{
+            System.out.println("You lost");
+        }      
     }
 
 }
